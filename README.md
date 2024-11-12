@@ -1,5 +1,7 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
+<center>A Typora theme designed in spring style</center>
+
 <p align="center">
   <a>
     <img src="https://img.shields.io/github/license/SprInec/typora-spring-theme" alt="GitHub license">
@@ -14,3 +16,5 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
   </a>
 </p>
+---
+
