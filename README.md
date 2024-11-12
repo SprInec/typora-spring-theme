@@ -16,7 +16,7 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
   </a>
 </p>
-<p align="center”>
+<p align="center">
 	<a>English</a>
     ·
     <a href="./README_cn.md">简体中文</a>
