@@ -1,17 +1,16 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
 <p align="center">
-  <a href="https://github.com/SprInec/typora-spring-theme/blob/master/LICENSE">
+  <a>
     <img src="https://img.shields.io/github/license/SprInec/typora-spring-theme" alt="GitHub license">
   </a>
-  <a href="https://GitHub.com/SprInec/typora-spring-theme/commit/">
+  <a>
     <img src="https://badgen.net/github/commits/SprInec/typora-spring-theme" alt="GitHub commits">
   </a>
-  <a href="https://GitHub.com/SprInec/typora-spring-theme/stargazers/">
+  <a>
     <img src="https://badgen.net/github/stars/SprInec/typora-spring-theme?color=green&icon=github" alt="GitHub stars">
   </a>
-  <a href="https://GitHub.com/SprInec/typora-spring-theme/watchers/">
+  <a>
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
   </a>
 </p>
-
