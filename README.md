@@ -1,6 +1,6 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
-<p align="center">A Typora theme designed in spring style</p>
+<p align="center">A dynamic theme of Typora full of spring atmosphere</p>
 
 <p align="center">
   <a>
