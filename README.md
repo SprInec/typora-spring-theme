@@ -23,10 +23,25 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
   </a>
 </p>
+## Preview
 
+<img src=".assets/sample.png" alt="sample"  />
 
+## Installation
 
-## Acknowledgements
+1. Clone this repository to your local.
+
+    ```bash
+    git clone https://github.com/SprInec/typora-spring-theme.git
+    ```
+
+2. Click ‘Themes’ in the menu of Typora, and click the ‘Open Theme Folder’ button to open it on the ‘Themes’ page.
+
+3. Copy the file `spring.css` into the opened Typora theme folder.
+
+4. Restart Typora, and then you can choose to use the **Spring** theme in the ‘Themes’ list.
+
+## Credits
 
 This project is based on *typora-mo-theme* for secondary development of visual and interactive design. The [template](template/) comes from *typora-theme-Jinxiu-template*. Here, special thanks to the two developers.
 
