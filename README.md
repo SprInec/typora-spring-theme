@@ -70,7 +70,7 @@
 - Inline styles
 
   <p align="left">
-    <img src=".assets/inline.gif" width="47%" />
+    <img src=".assets/inline_en.gif" width="47%" />
   </p>
 
 - Unordered list
