@@ -53,7 +53,7 @@
 
 - h3 h4 h5 h6
 
-    <img align="left" src=".assets/hx.gif" width=10% />
+    <img align="center" src=".assets/hx.gif" width=10% />
 
 - Paragraph Hover Responsiveness
 
