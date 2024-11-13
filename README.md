@@ -65,11 +65,11 @@
 
 - Unordered list
 
-    <img align="left" src=".assets/ul.gif" width=50% />
+    <img align="center" src=".assets/ul.gif" width=50% />
 
 - Ordered List
 
-    <img align="left" src=".assets/ol.gif" width=50% />
+    <img align="center" src=".assets/ol.gif" width=50% />
 
 - Image
 
