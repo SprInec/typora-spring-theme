@@ -82,35 +82,6 @@ document.getElementById("demo").innerHTML = x;
 </html>
 ```
 
-```c
-// c demo
-#include <stdio.h>
-
-int main(void)
-{
-    chat str[] = "style demo!\n";
-    printf("$s", str);
-    return 0;
-|
-```
-
-```makefile
-# Makefile demo
-CC = gcc
-CFLAGS = -I .
-DEPS = hello_func.h
-
-hello_main: hello_main.o hello_func.o
-	$(CC) -o hello_main hello_main.o hello_func.o
-	
-%.o: %.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS)
-
-.PHONY: clean
-clean:
-	rm -f *.o hello_main
-```
-
 mermaid:
 
 ```mermaid
@@ -133,30 +104,10 @@ alter:
 >
 > Inline styles support **strong**, *Emphasis*, `code`, :smile:, $\LaTeX$, X^2^, H~2~O, [Link](typora.io), image, code block and table:
 >
-> ![img](https://w.wallhaven.cc/full/3l/wallhaven-3lpymv.png)
->
-> ```python
-> # python demo
-> import random
-> answer = random.sample(range(1,10),4)
-> print(answer)
-> a = b = n =0 #
-> while a!=4 :
->     a = b = n = 0
->     user = list(input('Please enter four numbers：'))
->     for i in user:
->       if int(user[n]) == answer[n]:
->         a += 1
->       else:
->         if int(i) in answer:
->           b += 1
->       n += 1
->     # Key point: How to convert a sequence into a string
->     output = ','.join(user).replace(',','')
->     print(f'{output}:{a}A{b}B')
-> print('Correct！')
+> ```bash
+>echo "alter code block demo"
 > ```
->
+> 
 > |  TITLE  |  title  |
 > | :-----: | :-----: |
 > | content | content |

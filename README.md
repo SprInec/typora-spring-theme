@@ -25,7 +25,13 @@
 </p>
 ## Preview
 
-<img src=".assets/sample.png" alt="sample"  />
+![sample](.assets/sample-1731482754818-1.png)
+
+## Feature
+
+
+
+
 
 ## Installation
 
