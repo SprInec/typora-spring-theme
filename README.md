@@ -23,6 +23,7 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
   </a>
 </p>
+
 ## Preview
 
 ![sample](.assets/sample-1731482754818-1.png)
