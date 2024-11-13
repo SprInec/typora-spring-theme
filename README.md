@@ -46,13 +46,13 @@
 - h1
 
   <p align="center">
-    <img src=".assets/h1.gif" width="80%" />
+    <img src=".assets/h1.gif" width="100%" />
   </p>
 
 - h2
 
   <p align="center">
-    <img src=".assets/h2.gif" width="70%" />
+    <img src=".assets/h2.gif" width="80%" />
   </p>
 
 - h3 h4 h5 h6
@@ -70,7 +70,7 @@
 - Inline styles
 
   <p align="left">
-    <img src=".assets/inline.gif" width="45%" />
+    <img src=".assets/inline.gif" width="47%" />
   </p>
 
 - Unordered list
@@ -94,7 +94,7 @@
 - Table
 
   <p align="center">
-    <img src=".assets/table.gif" width="70%" />
+    <img src=".assets/table.gif" width="80%" />
   </p>
 
 - Code block
