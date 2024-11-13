@@ -88,7 +88,7 @@
 - Image
 
   <p align="center">
-    <img src=".assets/image.gif" width="70%" />
+    <img src=".assets/image.gif" width="100%" />
   </p>
 
 - Table
@@ -100,19 +100,19 @@
 - Code block
 
   <p align="center">
-    <img src=".assets/code_block.gif" width="50%" />
+    <img src=".assets/code_block.gif" width="70%" />
   </p>
 
 - blockquote
 
   <p align="center">
-    <img src=".assets/blockquote.gif" width="50%" />
+    <img src=".assets/blockquote.gif" width="70%" />
   </p>
 
 - Alert
 
   <p align="center">
-    <img src=".assets/alert.gif" width="50%" />
+    <img src=".assets/alert.gif" width="70%" />
   </p>
 
 
