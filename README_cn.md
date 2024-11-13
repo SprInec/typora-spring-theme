@@ -22,6 +22,7 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
   </a>
 </p>
+
 ## 目录
 
 - [主题预览](#主题预览)
@@ -44,51 +45,75 @@
 
 - 一级标题 h1
 
-    <img align="center" src=".assets/h1.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/h1.gif" width="100%" />
+</p>
 
 - 二级标题 h2
 
-    <img align="center" src=".assets/h2.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/h2.gif" width="80%" />
+</p>
 
 - 三、四、五、六级标题 h3 h4 h5 h6
 
-    <img align="left" src=".assets/hx.gif" style="zoom:50%;" />
+<p align="left">
+    <img src=".assets/hx.gif" width="10%" />
+</p>
 
 - 段落悬停响应
 
-    <img align="left" src=".assets/paragraph_hover.gif" style="zoom:50%;" />
+ <p align="center">
+    <img src=".assets/paragraph_hover.gif" width="100%" />
+ </p>
 
 - 内联样式
 
-    <img align="left" src=".assets/inline.gif" style="zoom:50%;" />
+<p align="left">
+    <img src=".assets/inline.gif" width="47%" />
+</p>
 
 - 无序列表
 
-    <img align="left" src=".assets/ul.gif" style="zoom:50%;" />
+<p align="left">
+    <img src=".assets/ul.gif" width="50%" />
+ </p>
 
 - 有序列表
 
-    <img align="left" src=".assets/ol.gif" style="zoom:50%;" />
+<p align="left">
+    <img src=".assets/ol.gif" width="50%" />
+</p>
 
 - 图片
 
-    <img align="center" src=".assets/image.gif" style="zoom:70%;" />
+ <p align="center">
+    <img src=".assets/image.gif" width="100%" />
+</p>
 
 - 表格
 
-    <img align="center" src=".assets/table.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/table.gif" width="80%" />
+</p>
 
 - 代码块
 
-    <img align="center" src=".assets/code_block.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/code_block.gif" width="70%" />
+</p>
 
 - 引用块
 
-    <img align="center" src=".assets/blockquote.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/blockquote.gif" width="70%" />
+</p>
 
 - 警告框
 
-    <img align="center" src=".assets/alter.gif" style="zoom:50%;" />
+<p align="center">
+    <img src=".assets/alert.gif" width="70%" />
+</p>
 
 ##### 3. 风格统一的 Typora 界面
 
