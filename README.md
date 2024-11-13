@@ -45,51 +45,76 @@
 
 - h1
 
-    <img align="center" src=".assets/h1.gif" width=80% />
+  <p align="center">
+    <img src=".assets/h1.gif" width="80%" />
+  </p>
 
 - h2
 
-    <img align="center" src=".assets/h2.gif" width=70% />
+  <p align="center">
+    <img src=".assets/h2.gif" width="70%" />
+  </p>
 
 - h3 h4 h5 h6
 
-    <img align="center" src=".assets/hx.gif" width=10% />
+  <p align="left">
+    <img src=".assets/hx.gif" width="10%" />
+  </p>
 
 - Paragraph Hover Responsiveness
 
-    <img align="left" src=".assets/paragraph_hover.gif" style="zoom:50%;" />
+  <p align="center">
+    <img src=".assets/paragraph_hover.gif" width="100%" />
+  </p>
 
 - Inline styles
 
-    <img align="left" src=".assets/inline.gif" width=50% />
+  <p align="left">
+    <img src=".assets/inline.gif" width="45%" />
+  </p>
 
 - Unordered list
 
-    <img align="center" src=".assets/ul.gif" width=50% />
+  <p align="left">
+    <img src=".assets/ul.gif" width="50%" />
+  </p>
 
 - Ordered List
 
-    <img align="center" src=".assets/ol.gif" width=50% />
+  <p align="left">
+    <img src=".assets/ol.gif" width="50%" />
+  </p>
 
 - Image
 
-    <img align="center" src=".assets/image.gif" style="zoom:70%;" />
+  <p align="center">
+    <img src=".assets/image.gif" width="70%" />
+  </p>
 
 - Table
 
-    <img align="center" src=".assets/table.gif" style="zoom:50%;" />
+  <p align="center">
+    <img src=".assets/table.gif" width="70%" />
+  </p>
 
 - Code block
 
-    <img align="center" src=".assets/code_block.gif" width=60% />
+  <p align="center">
+    <img src=".assets/code_block.gif" width="50%" />
+  </p>
 
 - blockquote
 
-    <img align="center" src=".assets/blockquote.gif" width=60% />
+  <p align="center">
+    <img src=".assets/blockquote.gif" width="50%" />
+  </p>
 
 - Alert
 
-    <img align="center" src=".assets/alert.gif" width=60% />
+  <p align="center">
+    <img src=".assets/alert.gif" width="50%" />
+  </p>
+
 
 ##### 3. Typora interface with unified style
 
