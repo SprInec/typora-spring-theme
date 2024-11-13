@@ -35,8 +35,8 @@ table：
 
 <center><strong>table 1　Global / Chinese Desktop operating system Market share</strong> (%)</center>
 
-| OS   | Windows | macOS | Unknown | Linux | Chrome OS | 其他 |
-| ---- | ------- | ----- | ------- | ----- | --------- | ---- |
+| OS   | Windows | macOS | Unknown | Linux | Chrome OS | Other |
+| :--- | ------- | ----- | ------- | ----- | --------- | ---- |
 | Global | 76.56   | 17.1  | 2.68    | 1.93  | 1.72      | 0.01 |
 | Chinese | 87.55   | 5.44  | 6.24    | 0.75  | 0.01      | 0.01 |
 

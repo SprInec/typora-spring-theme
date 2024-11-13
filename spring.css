@@ -36,7 +36,7 @@ content #write > h5.md-focus:before {
 }
 
 ::-moz-selection {
-  background-color: #96d782;
+  background-color: #def2e8;
 }
 
 ::selection {
@@ -729,7 +729,7 @@ table tbody + tbody,
 
 .md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selected,
 .md-htmlblock .md-htmlblock-panel .md-rawblock-input .cm-s-inner .CodeMirror-selectedtext {
-  background-color: #96d782 !important;
+  background-color: #def2e8 !important;
 }
 
 /* strong */

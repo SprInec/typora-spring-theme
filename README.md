@@ -3,7 +3,6 @@
 <p align="center">
     A dynamic theme of Typora full of spring atmosphere
 </p>
-
 <p align="center">
     <a>English</a>
     ·
@@ -20,19 +19,81 @@
     <img src="https://badgen.net/github/commits/SprInec/typora-spring-theme?icon=github" alt="GitHub commits">
   </a>
   <a>
-    <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
+    <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
   </a>
 </p>
 
+## Catalog
+
+- [Preview](#Preview)
+- [Feature](#Feature)
+- [Installation](#Installation)
+- [Credits](#Credits)
+- [License](#License)
+
 ## Preview
 
-![sample](.assets/sample-1731482754818-1.png)
+![preview](.assets/preview.png)
 
 ## Feature
 
+##### 1. Spring-themed color palette
 
+![image-20241113191409991](.assets/image-20241113191409991.png)
 
+##### 2. Flexible interaction with different effects
 
+- h1
+
+    <img align="center" src=".assets/h1.gif" style="zoom:50%;" />
+
+- h2
+
+    <img align="center" src=".assets/h2.gif" style="zoom:50%;" />
+
+- h3 h4 h5 h6
+
+    <img align="left" src=".assets/hx.gif" style="zoom:50%;" />
+
+- Paragraph Hover Responsiveness
+
+    <img align="left" src=".assets/paragraph_hover.gif" style="zoom:50%;" />
+
+- Inline styles
+
+    <img align="left" src=".assets/inline.gif" style="zoom:50%;" />
+
+- Unordered list
+
+    <img align="left" src=".assets/ul.gif" style="zoom:50%;" />
+
+- Ordered List
+
+    <img align="left" src=".assets/ol.gif" style="zoom:50%;" />
+
+- Image
+
+    <img align="center" src=".assets/image.gif" style="zoom:70%;" />
+
+- Table
+
+    <img align="center" src=".assets/table.gif" style="zoom:50%;" />
+
+- Code block
+
+    <img align="center" src=".assets/code_block.gif" style="zoom:50%;" />
+
+- blockquote
+
+    <img align="center" src=".assets/blockquote.gif" style="zoom:50%;" />
+
+- Alert
+
+    <img align="center" src=".assets/alert.gif" style="zoom:50%;" />
+
+##### 3. Typora interface with unified style
+
+<img align="center" src=".assets/sys.gif" style="zoom:50%;" />
 
 ## Installation
 
@@ -48,10 +109,14 @@
 
 4. Restart Typora, and then you can choose to use the **Spring** theme in the ‘Themes’ list.
 
-## Credits
+## [Credits](credits.md)
 
-This project is based on *typora-mo-theme* for secondary development of visual and interactive design. The [template](template/) comes from *typora-theme-Jinxiu-template*. Here, special thanks to the two developers.
+This project is based on *typora-mo-theme* for secondary development of visual and interactive design. The [template](template/) comes from *typora-theme-Jinxiu-template*. 
 
-- [MarMomento/typora-mo-theme](MarMomento/typora-mo-theme)
-- [Sophomoresty/typora-theme-Jinxiu](Sophomoresty/typora-theme-Jinxiu)
+- [MarMomento/typora-mo-theme](https://github.com/MarMomento/typora-mo-theme)
+- [Sophomoresty/typora-theme-Jinxiu](https://github.com/Sophomoresty/typora-theme-Jinxiu)
+
+## License
+
+This project is based on the MIT open source protocol. You can freely copy, modify and distribute the code of this project, but please keep the original author's [LICENSE](LICENSE).
 

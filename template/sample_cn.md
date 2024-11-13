@@ -1,17 +1,17 @@
 ---
-title: 乱数假文
+title: Lorem ipsum
 author: SprInec
 references: typora-theme-Jinxiu
 description: 这个 block 块是 YAML front matters
 ---
 
-# 乱数假文
+# Lorem ipsum
 
-在[出版](https://www.wikiwand.com/en/Publishing)和[平面设计](https://www.wikiwand.com/en/Graphic_design)中，**lorem ipsum**（源自拉丁语*dolorem ipsum*，翻译为“痛苦本身”）是一个[填充文本](https://www.wikiwand.com/en/Filler_text)，通常用于演示文档或视觉呈现的图形元素[^1]
+在[出版](https://www.wikiwand.com/en/Publishing)和[平面设计](https://www.wikiwand.com/en/Graphic_design)中，**lorem ipsum**（源自拉丁语 *dolorem ipsum*，翻译为“痛苦本身”）是一个[填充文本](https://www.wikiwand.com/en/Filler_text)，通常用于演示文档或视觉呈现的图形元素[^1]
 
 ## 样例文本
 
-常见的*lorem ipsum*起头如下：
+常见的 *lorem ipsum* 起头如下：
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 >
@@ -84,35 +84,6 @@ document.getElementById("demo").innerHTML = x;
 </html>
 ```
 
-```c
-// c demo
-#include <stdio.h>
-
-int main(void)
-{
-    chat str[] = "style demo!\n";
-    printf("$s", str);
-    return 0;
-}
-```
-
-```makefile
-# Makefile demo
-CC = gcc
-CFLAGS = -I .
-DEPS = hello_func.h
-
-hello_main: hello_main.o hello_func.o
-	$(CC) -o hello_main hello_main.o hello_func.o
-	
-%.o: %.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS)
-
-.PHONY: clean
-clean:
-	rm -f *.o hello_main
-```
-
 mermaid  图形：
 
 ```mermaid
@@ -135,30 +106,10 @@ alter:
 >
 > Inline styles support **strong**, *Emphasis*, `code`, :smile:, $\LaTeX$, X^2^, H~2~O, table, [Link](typora.io), and code block:
 >
-> ![img](https://w.wallhaven.cc/full/3l/wallhaven-3lpymv.png)
->
-> ```c
-> # python demo
-> import random
-> answer = random.sample(range(1,10),4)
-> print(answer)
-> a = b = n =0 #
-> while a!=4 :
->     a = b = n = 0
->     user = list(input('Please enter four numbers：'))
->     for i in user:
->       if int(user[n]) == answer[n]:
->         a += 1
->       else:
->         if int(i) in answer:
->           b += 1
->       n += 1
->     # Key point: How to convert a sequence into a string
->     output = ','.join(user).replace(',','')
->     print(f'{output}:{a}A{b}B')
-> print('Correct！')
+> ```bash
+>echo "警告框代码块示例"
 > ```
->
+> 
 > |  TITLE  |  title  |
 > | :-----: | :-----: |
 > | content | content |
