@@ -1,12 +1,6 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
-<p align="center">一款充满春天气息的 Typora 灵动主题</p>
-
-<p align="center">
-    <a href="./README.md">English</a>
-    ·
-    <a>简体中文</a>
-</p>
+<p align="center">一款如沐春风的 Typora 灵动主题</p>
 
 <p align="center">
   <a>
@@ -21,6 +15,12 @@
   <a>
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
   </a>
+</p>
+
+<p align="center">
+    <a href="./README.md">English</a>
+    ·
+    <a>简体中文</a>
 </p>
 
 ## 目录
