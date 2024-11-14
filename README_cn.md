@@ -8,6 +8,9 @@
 
 <p align="center">
   <a>
+    <img src="https://img.shields.io/badge/language-CSS-purple.svg">
+  </a>
+  <a>
     <img src="https://img.shields.io/github/license/SprInec/typora-spring-theme" alt="GitHub license">
   </a>
   <a>
@@ -26,7 +29,6 @@
     ·
     <a>简体中文</a>
 </p>
-
 ## 目录
 
 - [主题预览](#主题预览)
