@@ -1,7 +1,9 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
 <p align="center">
-    A dynamic theme of Typora full of spring atmosphere
+    一款令人如沐春风的 Typora 灵动主题
+    <br/>
+    A refreshing and graceful Typora theme, like a gentle spring breeze.
 </p>
 
 <p align="center">
