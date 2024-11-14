@@ -1002,6 +1002,7 @@ a img {
 .cm-s-inner .cm-meta {
   color: #099f8b;
   font-weight: bold;
+  font-style: italic;
 }
 
 /* 链接 */
