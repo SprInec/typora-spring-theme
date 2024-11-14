@@ -7,9 +7,6 @@
 </p>
 <p align="center">
   <a>
-      <img src="https://img.shields.io/badge/language-CSS-purple.svg">
-  </a>
-  <a>
     <img src="https://img.shields.io/github/license/SprInec/typora-spring-theme" alt="GitHub license">
   </a>
   <a>
@@ -20,6 +17,9 @@
   </a>
   <a>
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
+  </a>
+  <a>
+      <img src="https://img.shields.io/badge/language-CSS-purple.svg">
   </a>
 </p>
 
