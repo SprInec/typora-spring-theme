@@ -14,7 +14,7 @@ This project is based on *typora-mo-theme* for secondary development of visual a
     3. Changed the sample images;
     4. Added style examples for Alert.
 
-According to the MIT agreement, the following is the LCENSE original text of typora-mo-theme:
+According to the MIT agreement, the following is the LICENSE original text of typora-mo-theme:
 
 ```
 MIT License
@@ -58,7 +58,7 @@ SOFTWARE.
     3. 更换了示例图片；
     4. 添加了 Alert 的样式示例。
 
-根据 MIT 协议，以下为 typora-mo-theme 的 LCENSE 原文：
+根据 MIT 协议，以下为 typora-mo-theme 的 LICENSE 原文：
 
 ```
 MIT License
