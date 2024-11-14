@@ -1,6 +1,10 @@
 <img src=".assets/logo-spring.png" alt="logo-spring" />
 
-<p align="center">一款如沐春风的 Typora 灵动主题</p>
+<p align="center">
+    一款令人如沐春风的 Typora 灵动主题
+    <br/>
+    A refreshing and graceful Typora theme, like a gentle spring breeze.
+</p>
 
 <p align="center">
   <a>
