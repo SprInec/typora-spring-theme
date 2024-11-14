@@ -5,8 +5,10 @@
     <br/>
     A refreshing and graceful Typora theme, like a gentle spring breeze.
 </p>
-
 <p align="center">
+  <a>
+      <img src="https://img.shields.io/badge/language-CSS-purple.svg">
+  </a>
   <a>
     <img src="https://img.shields.io/github/license/SprInec/typora-spring-theme" alt="GitHub license">
   </a>
@@ -21,12 +23,12 @@
   </a>
 </p>
 
+
 <p align="center">
     <a>English</a>
     ·
     <a href="./README_cn.md">简体中文</a>
 </p>
-
 ## Catalog
 
 - [Preview](#Preview)
