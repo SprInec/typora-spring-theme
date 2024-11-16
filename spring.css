@@ -194,7 +194,7 @@ ol:last-child {
 
 ul .md-list-item::marker {
     list-style-type: disc;
-    font-size: 27px;
+    font-size: 27px !important;
     color: #087725;
     transition: transform 0.3s; 
 }
@@ -236,7 +236,7 @@ ol .md-list-item::marker {
 ol .md-list-item:hover::marker {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 23px;
     color: #006400;
 }
 
