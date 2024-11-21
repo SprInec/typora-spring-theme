@@ -129,7 +129,7 @@
 
 ## Installation
 
-1. Clone this repository to your local.
+1. Use the following command in your terminal to clone this repository locally **/** or you can get the stable version compressed package from [Releases](https://github.com/SprInec/typora-spring-theme/releases) and unzip it locally.
 
     ```bash
     git clone https://github.com/SprInec/typora-spring-theme.git

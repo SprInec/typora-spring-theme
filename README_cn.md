@@ -128,7 +128,7 @@
 
 ## 快速安装与应用
 
-1. 将此仓库克隆到本地。
+1. 在终端使用以下命令将此仓库克隆到本地 **/** 或者您也可以从 [Releases](https://github.com/SprInec/typora-spring-theme/releases) 获取稳定版本的压缩包并解压到本地。
 
     ```bash
     git clone https://github.com/SprInec/typora-spring-theme.git
