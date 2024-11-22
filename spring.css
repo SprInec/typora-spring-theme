@@ -5,7 +5,18 @@ html {
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
-  text-align: justify;
+
+  /** Text alignment 文本对齐方式 **
+   * - left: Align Left 左对齐 
+   * - right: Align right 右对齐
+   * - center: Align center 居中对齐
+   * - justify: Align justify 两端对齐
+   * - justify-all: Align justify-all 全部两端对齐
+   * - start: Align start 行首对齐
+   * - end: Align end 行尾对齐
+   */
+  text-align: justify; 
+
   overflow-x: hidden;
   color: #282c34;
   -webkit-font-smoothing: antialiased;
@@ -146,7 +157,7 @@ img {
   max-width: 100%; 
   display: block;
   margin: 1em auto; 
-  transition: transform 0.3s ease, border-radius 0.3s ease; 
+  transition: transform 0.15s ease, border-radius 0.15s ease; 
 }
 
 img:hover {
@@ -914,17 +925,28 @@ a img {
   transition: all 0.3s ease;
 }
 
-@keyframes bounce-code {
+/* 1. Scale animation */
+/* @keyframes bounce-code {
     0%, 100% {
         transform: scale(1);
     }
     50% {
         transform: scale(1.01); 
     }
+} */
+
+/* 2. Displacement Animation */
+@keyframes bounce-code {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-5px, -5px); 
+  }
 }
 
 .md-fences:hover {
-  animation: bounce-code 0.6s ease-in-out;
+  animation: bounce-code 0.5s ease-in-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
