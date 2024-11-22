@@ -152,3 +152,8 @@ This project is based on *typora-mo-theme* for secondary development of visual a
 
 This project is based on the MIT open source protocol. You can freely copy, modify and distribute the code of this project, but please keep the original author's [LICENSE](LICENSE).
 
+## Star History
+
+<p align="center">
+    <a href="https://star-history.com/#SprInec/typora-spring-theme&Date"><img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/></a>
+</p>
