@@ -155,5 +155,5 @@ This project is based on the MIT open source protocol. You can freely copy, modi
 ## Star History
 
 <p align="center">
-    <a href="https://star-history.com/#SprInec/typora-spring-theme&Date"><img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/></a>
+    <img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/>
 </p>
