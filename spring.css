@@ -779,13 +779,13 @@ strong {
   font-weight: bold; 
   color: #06621e; 
   font-size: 1.05rem;
-  transition: transform 0.3s ease, padding 0.3s ease;
+  transition: font-size 0.3s ease, padding 0.3s ease;
   display: inline-block; 
   margin: 0 2px; 
 }
 
 strong:hover {
-  transform: scale(1.05);
+  font-size: 1.10rem;
   padding: 0 3px;
 }
 
@@ -818,7 +818,7 @@ u {
 u:hover {
   border: 2px solid rgb(9, 156, 70);
   padding: 4px;
-  margin: 0 3px;
+  margin: 0 4px;
   border-radius: 7px;
 }
 
