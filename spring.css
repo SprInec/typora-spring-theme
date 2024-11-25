@@ -28,7 +28,7 @@
      * - 1: Open 开启
      **************************************************************************************************/
     /* Use/Close interactive animations 使用/关闭交互动画 */
-    --use-dynamic-effect: 0;
+    --use-dynamic-effect: 1;
 
     /* H1 interactive effect 一级标题交互效果 */
     --h1-hover-effect: 1;
