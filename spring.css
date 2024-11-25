@@ -782,8 +782,8 @@ strong {
 }
 
 strong:hover {
-  transform: scale(1.02);
-  padding: 0 4px;
+  transform: scale(1.05);
+  padding: 0 3px;
 }
 
 /* emphasis */
@@ -814,7 +814,8 @@ u {
 
 u:hover {
   border: 2px solid rgb(9, 156, 70);
-  padding: 5px; 
+  padding: 4px;
+  margin: 0 3px;
   border-radius: 7px;
 }
 
@@ -835,7 +836,7 @@ code {
   font-size: 1rem;
   font-weight: 550;
   margin: 0 2px;
-  padding: 3px 4px 1px;
+  padding: 3px 3px 1px;
   border-radius: 7px;
   transition: all 0.3s ease;
   z-index: -1;
@@ -871,7 +872,7 @@ mark {
   background-color:#aee6c3; 
   color: inherit; 
   margin: 0 2px;
-  padding: 3px 4px 2.5px;
+  padding: 3px 3px 2.5px;
   border-radius: 0px;
   transition: all 0.3s ease
 }
@@ -879,7 +880,7 @@ mark {
 mark:hover {
   border-radius: 7px;
   background-color: #c4ead2;
-  padding: 5px;
+  padding: 4px;
 }
 
 /* hyperlink */
