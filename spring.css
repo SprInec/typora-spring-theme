@@ -75,7 +75,7 @@ content #write > h5.md-focus:before {
   transition: transform 0.4s ease;
 }
 
-h1:before {
+#write h1:before {
   content: "";
   position: absolute;
   top: 0;
@@ -89,11 +89,11 @@ h1:before {
   z-index: -1;
 }
 
-h1:hover {
+#write h1:hover {
   transform: scale(1.1); 
 }
 
-h1:hover:before {
+#write h1:hover:before {
   transform: scaleX(1);
 }
 
@@ -104,7 +104,7 @@ h1:hover:before {
   font-weight: bold;
 }
 
-h2:after {
+#write h2:after {
   content: "";
   display: block;
   width: 30rem;
@@ -116,7 +116,7 @@ h2:after {
   transition: transform 0.4s ease, background 0.4s ease; 
 }
 
-h2:hover:after {
+#write h2:hover:after {
   transform: scaleX(1); 
 }
 
@@ -136,18 +136,18 @@ h2:hover:after {
   font-size: 1.2rem;
 }
 
-h3,
-h4,
-h5,
-h6 {
+#write h3,
+#write h4,
+#write h5,
+#write h6 {
    position: relative;
    transition: transform 0.3s ease;
 }
 
-h3:hover,
-h4:hover,
-h5:hover,
-h6:hover {
+#write h3:hover,
+#write h4:hover,
+#write h5:hover,
+#write h6:hover {
   transform: scale(1.01);
 }
 
