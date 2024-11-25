@@ -1,78 +1,85 @@
 :root {
 
-    /**************** Text alignment 文本对齐方式 *******************
-     * - left: Align Left 左对齐 
-     * - right: Align right 右对齐
-     * - center: Align center 居中对齐
-     * - justify: Align justify 两端对齐
-     * - justify-all: Align justify-all 全部两端对齐
-     * - start: Align start 行首对齐
-     * - end: Align end 行尾对齐
-     **************************************************************/
+    /*********************************** Text alignment 文本对齐方式 ***********************************
+     * - left:         Align Left         左对齐 
+     * - right:        Align right        右对齐
+     * - center:       Align center       居中对齐
+     * - justify:      Align justify      两端对齐
+     * - justify-all:  Align justify-all  全部两端对齐
+     * - start:        Align start        行首对齐
+     * - end:          Align end          行尾对齐
+     **************************************************************************************************/
     --text-align: justify;
 
-    /*********************** 交互动画配置 **************************
-     ** 若要使用交互动画,请先将 --use-dynamic-effect 设置为 1
-     ** 若要关闭交互动画,请将 --use-dynamic-effect 设置为 0 
-     **                     --list-ol-text-style 设置为 italic
+    /*********************** Interactive animation configuration 交互动画配置 **************************
+     ** 1.To use interactive animations, first set --use-dynamic-effect` to 1, Then adjust other 
+     **   configuration items as needed.
+     ** 2.To turn off all interactive animations, set `--use-dynamic-effect` to 0
+     **                                           set `--list-ol-text-style` to italic
+     *
+     ** 1.若要使用交互动画, 请先将 `--use-dynamic-effect` 设置为 1, 然后根据需要调整其他配置项
+     ** 2.若要关闭全部交互动画, 请将 `--use-dynamic-effect` 设置为 0  
+     **                            `--list-ol-text-style` 设置为 italic
      *
      * 其余配置项请根据需要自行配置
-     * - 0: 关闭
-     * - 1 开启
-     **************************************************************/
-    /* 使用/关闭交互动画 */
+     * - 0: Close 关闭
+     * - 1: Open 开启
+     **************************************************************************************************/
+    /* Use/Close interactive animations 使用/关闭交互动画 */
     --use-dynamic-effect: 0;
 
-    /* H1 交互效果 */
+    /* H1 interactive effect 标题 1 交互效果 */
     --h1-hover-effect: 1;
 
-    /* H2 交互效果 */
+    /* H2 interactive effect 标题 2 交互效果 */
     --h2-after-effect: 1;
 
-    /* H3 H4 H5 H6 交互效果 */
+    /* H3 H4 H5 H6 interactive effect 标题 3 4 5 6 交互效果 */
     --h3-6-hover-effect: 1;
 
-    /* 段落交互效果 */
+    /* Paragraph interactive effect 段落交互效果 */
     --p-hover-effect: 1;
 
-    /* 图片交互效果 */
+    /* Image interactive effect 图片交互效果 */
     --img-hover-effect: 1;
 
-    /* 引用块交互效果 */
+    /* Blockquote interactive effect 引用块交互效果 */
     --blockquote-hover-effect: 1;
     
-    /* 提示框交互效果 */
+    /* Alert interactive effect 提示框交互效果 */
     --alert-hover-effect: 1;
     
-    /* 粗体文本交互效果 */
+    /* Strong text interactive effect 粗体文本交互效果 */
     --strong-hover-effect: 1;
 
-    /* 斜体文本交互效果 */
+    /* Italic text interactive effect 斜体文本交互效果 */
     --em-hover-effect: 1;
 
-    /* 下划线交互效果 */
+    /* Underline interactive effect 下划线交互效果 */
     --u-hover-effect: 1;
 
-    /* 标记文本交互效果 */
+    /* Marked text interactive effect 标记文本交互效果 */
     --mark-hover-effect: 1;
 
-    /* 删除线交互效果 */
+    /* Deleted text interactive effect 删除线交互效果 */
     --del-hover-effect: 1;
 
-    /* 内联代码块交互效果 */
+    /* Inline code block interactive effect 内联代码块交互效果 */
     --code-hover-effect: 1;
 
-    /* 代码块交互效果 */
+    /* Code block interactive effect 代码块交互效果 */
     --fence-hover-effect: 1;
     
-    /* 列表交互效果: 下面两个值需同步更改 0-italic or 1-normal */
+    /* List interactive effect 列表交互效果
+     * The following two values ​​need to be changed synchronously
+     * 下面两个值需同步更改 0-italic or 1-normal */
     --list-marker-effect: 1;
     --list-ol-text-style: normal;
     
-    /* 分割线交互效果 */
+    /* Divider interactive effect 分割线交互效果 */
     --hr-hover-effect: 1;
     
-    /* Table 表格交互效果 */
+    /* Table interactive effect 表格交互效果 */
     --table-hover-effect: 1;
 }
 
