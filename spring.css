@@ -1,6 +1,7 @@
 :root {
 
-    /*********************************** Text alignment 文本对齐方式 ***********************************
+    /********************************* Text alignment 文本对齐方式 *************************************
+     **************************************************************************************************
      * - left:         Align Left         左对齐 
      * - right:        Align right        右对齐
      * - center:       Align center       居中对齐
@@ -11,7 +12,8 @@
      **************************************************************************************************/
     --text-align: justify;
 
-    /*********************** Interactive animation configuration 交互动画配置 **************************
+    /************************* Interactive animation configuration 交互动画配置 ************************
+     **************************************************************************************************
      ** 1.To use interactive animations, first set --use-dynamic-effect` to 1, Then adjust other 
      **   configuration items as needed.
      ** 2.To turn off all interactive animations, set `--use-dynamic-effect` to 0
@@ -28,13 +30,13 @@
     /* Use/Close interactive animations 使用/关闭交互动画 */
     --use-dynamic-effect: 0;
 
-    /* H1 interactive effect 标题 1 交互效果 */
+    /* H1 interactive effect 一级标题交互效果 */
     --h1-hover-effect: 1;
 
-    /* H2 interactive effect 标题 2 交互效果 */
+    /* H2 interactive effect 二级标题交互效果 */
     --h2-after-effect: 1;
 
-    /* H3 H4 H5 H6 interactive effect 标题 3 4 5 6 交互效果 */
+    /* H3 H4 H5 H6 interactive effect 三,四,五,六级标题交互效果 */
     --h3-6-hover-effect: 1;
 
     /* Paragraph interactive effect 段落交互效果 */
@@ -58,7 +60,7 @@
     /* Underline interactive effect 下划线交互效果 */
     --u-hover-effect: 1;
 
-    /* Marked text interactive effect 标记文本交互效果 */
+    /* Marked text interactive effect 高亮文本交互效果 */
     --mark-hover-effect: 1;
 
     /* Deleted text interactive effect 删除线交互效果 */
