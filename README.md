@@ -27,8 +27,6 @@
   </a>
 </p>
 
-
-
 <p align="center">
     <a>English</a>
     ·
@@ -172,6 +170,26 @@
 3. Copy the file `spring.css` into the opened Typora theme folder.
 
 4. Restart Typora, and then you can choose to use the **Spring** theme in the ‘Themes’ list.
+
+## Project Progress
+
+- [x] Light theme SprIng
+
+- [x] Smart Interaction
+
+- [x] Interactive animation configuration
+
+- [ ] HTML export configuration
+
+- [ ] Document layout configuration
+
+- [ ] Dark theme SprIngNight
+
+- [ ] Custom color palette
+
+- [ ] Custom style
+
+- [ ] [typora-plugin](https:--github.com-obgnail-typora_plugin) unified style adaptation
 
 ## [Credits](credits.md)
 
