@@ -35,7 +35,6 @@
 </p>
 
 ## Catalog
-
 - [Preview](#Preview)
 - [Feature](#Feature)
 - [Custom Configuration](#Custom-Configuration)
@@ -43,7 +42,6 @@
 - [Todo List](#Todo-List)
 - [Credits](#Credits)
 - [License](#License)
-- [Star History](#Star-History)
 
 ## Preview
 
@@ -209,8 +207,6 @@ This project is based on *typora-mo-theme* for secondary development of visual a
 ## License
 
 This project is based on the MIT open source protocol. You can freely copy, modify and distribute the code of this project, but please keep the original author's [LICENSE](LICENSE).
-
-## Star History
 
 <p align="center">
     <img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/>
