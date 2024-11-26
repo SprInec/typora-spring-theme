@@ -23,25 +23,26 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple&icon=github" alt="GitHub watchers">
   </a>
   <a>
-      <img src="https://img.shields.io/badge/language-css-purple" />
+      <img src="https://img.shields.io/badge/language-CSS-purple" />
   </a>
 </p>
+
 
 <p align="center">
     <a href="./README.md">English</a>
     ·
     <a>简体中文</a>
 </p>
-
 ## 目录
 
 - [主题预览](#主题预览)
 - [设计元素](#设计元素)
 - [自定义配置](#自定义配置)
-    - [交互动画配置](#交互动画配置)
 - [快速安装与应用](#快速安装与应用)
+- [Todo List](#Todo-List)
 - [致谢](#致谢)
 - [许可](#许可)
+- [Star History](#Star-History)
 
 ## 主题预览
 
@@ -133,11 +134,22 @@
 
 ## 自定义配置
 
-### 交互动画配置
+### 交互效果配置
+
+可根据需求自定义开启或关闭任意元素的交互效果，具体操作如下：
+
+1. 打开 `spring.css` 文件，在文件开头根据注释找到交互效果配置选项；
+2. 根据需求修改对应交互效果的变量值，`0` 为关闭，`1` 为开启；
+3. 重启 Typora 即可应用更改。
+
+> [!important]
+>
+> 1. 若要开启交互效果，请首先将 `–use-dynamic-effect` 设置为 `1`, 然后在针对具体类型进行配置。
+> 2. 若要关闭全部的交互效果，直接将 `–use-dynamic-effect` 设置为 `0` 即可。（`–use-dynamic-effect`无法禁用有序列表的部分交互效果，若想要关闭有序列表的全部交互效果，请将 `--list-ol-text-style` 设置为 `italic`）
 
 |         类型         |                      变量名                      |            值            |              功能               |
 | :------------------: | :----------------------------------------------: | :----------------------: | :-----------------------------: |
-|     **全局配置**     |              `--use-dynamic-effect`              |          0 / 1           | 关闭全部交互动画 / 使用交互动画 |
+|     **全局配置**     |              `--use-dynamic-effect`              |          0 / 1           | 关闭全部交互效果 / 使用交互效果 |
 |       一级标题       |               `--h1-hover-effect`                |          0 / 1           |           关闭 / 开启           |
 |       二级标题       |               `--h2-after-effect`                |          0 / 1           |           关闭 / 开启           |
 | 三、四、五、六级标题 |              `--h3-6-hover-effect`               |          0 / 1           |           关闭 / 开启           |
@@ -152,20 +164,21 @@
 |        删除线        |               `--del-hover-effect`               |          0 / 1           |           关闭 / 开启           |
 |      内联代码块      |              `--code-hover-effect`               |          0 / 1           |           关闭 / 开启           |
 |        代码块        |              `--fence-hover-effect`              |          0 / 1           |           关闭 / 开启           |
-|         列表         | `--list-marker-effect`<br>`--list-ol-text-style` | 0 / 1<br>nornal / italic |   关闭 / 开启<br>正体 / 斜体    |
+|         列表         | `--list-marker-effect`<br>`--list-ol-text-style` | 0 / 1<br>nornal / italic |   关闭 / 开启<br>关闭 / 开启    |
 |        分割线        |               ` --hr-hover-effect`               |          0 / 1           |           关闭 / 开启           |
 |         表格         |              `--table-hover-effect`              |          0 / 1           |           关闭 / 开启           |
 
-## 项目进展
+## Todo List
 
 - [x] 浅色主题 SprIng
 - [x] 灵动交互
-- [x] 交互动画配置
+- [x] 交互效果配置
 - [ ] HTML导出配置
 - [ ] 文档排版配置
 - [ ] 暗色主题 SprIngNight
 - [ ] 自定义配色卡
 - [ ] 自定义样式
+- [ ] 可供选择的多种交互效果
 - [ ] [typora-plugin](https://github.com/obgnail/typora_plugin) 统一风格适配 
 
 ## 快速安装与应用
@@ -191,3 +204,8 @@
 
  该项目基于 MIT 开源协议，您可以自由地复制、修改和分发本项目的代码，但请保留原作者的[版权声明](LICENSE)。
 
+## Star History
+
+<p align="center">
+    <img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/>
+</p>

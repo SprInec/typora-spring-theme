@@ -23,9 +23,10 @@
     <img src="https://badgen.net/github/watchers/SprInec/typora-spring-theme?color=purple" alt="GitHub watchers">
   </a>
   <a>
-      <img src="https://img.shields.io/badge/language-css-purple" />
+      <img src="https://img.shields.io/badge/language-CSS-purple" />
   </a>
 </p>
+
 
 <p align="center">
     <a>English</a>
@@ -39,9 +40,10 @@
 - [Feature](#Feature)
 - [Custom Configuration](#Custom-Configuration)
 - [Installation](#Installation)
-- [Project Progress](#Project-Progress)
+- [Todo List](#Todo-List)
 - [Credits](#Credits)
 - [License](#License)
+- [Star History](#Star-History)
 
 ## Preview
 
@@ -133,30 +135,42 @@
 
 ## Custom Configuration
 
-### Interactive animation configuration
+### Interaction Effect Configuration
 
-|           Type           |                   Variable Name                   |          Values           |                           Function                           |
-| :----------------------: | :-----------------------------------------------: | :-----------------------: | :----------------------------------------------------------: |
-| **Global Configuration** |              `--use-dynamic-effect`               |           0 / 1           | Turn off all interactive animations / Use interactive animations |
-|            H1            |                `--h1-hover-effect`                |           0 / 1           |                         Close / Open                         |
-|            H2            |                `--h2-after-effect`                |           0 / 1           |                         Close / Open                         |
-|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                         Close / Open                         |
-|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                         Close / Open                         |
-|          Image           |               `--img-hover-effect`                |           0 / 1           |                         Close / Open                         |
-|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                         Close / Open                         |
-|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                         Close / Open                         |
-|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                         Close / Open                         |
-|          Italic          |                `--em-hover-effect`                |           0 / 1           |                         Close / Open                         |
-|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                         Close / Open                         |
-|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                         Close / Open                         |
-|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                         Close / Open                         |
-|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                         Close / Open                         |
-|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                         Close / Open                         |
-|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>nornal / italic |               Close / Open<br>normal / italic                |
-|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                         Close / Open                         |
-|          Table           |              `--table-hover-effect`               |           0 / 1           |                         Close / Open                         |
+You can customize the interactive effects of any element to be turned on or off as needed. The specific operations are as follows:
 
+1. Open the `spring.css` file and find the interactive effect configuration options according to the comments at the beginning of the file;
 
+2. Modify the variable value of the corresponding interactive animation as required, `0` means off, `1` means on;
+
+3. Restart Typora to apply the changes.
+
+> [!important]
+>
+> 1. To enable interactive effects, first set `--use-dynamic-effect` to `1`, and then configure it for specific types.
+>
+> 2. To turn off all interactive effects, simply set `–use-dynamic-effect` to `0`. (`–use-dynamic-effect` cannot disable some interactive effects of ordered lists. If you want to turn off all interactive effects of ordered lists, set `--list-ol-text-style` to `italic`)
+
+|           Type           |                   Variable Name                   |          Values           |                        Function                         |
+| :----------------------: | :-----------------------------------------------: | :-----------------------: | :-----------------------------------------------------: |
+| **Global Configuration** |              `--use-dynamic-effect`               |           0 / 1           | Turn off all interactive effect/ Use interactive effect |
+|            H1            |                `--h1-hover-effect`                |           0 / 1           |                      Close / Open                       |
+|            H2            |                `--h2-after-effect`                |           0 / 1           |                      Close / Open                       |
+|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                      Close / Open                       |
+|          Image           |               `--img-hover-effect`                |           0 / 1           |                      Close / Open                       |
+|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                      Close / Open                       |
+|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                      Close / Open                       |
+|          Italic          |                `--em-hover-effect`                |           0 / 1           |                      Close / Open                       |
+|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                      Close / Open                       |
+|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                      Close / Open                       |
+|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>nornal / italic |             Close / Open<br>normal / italic             |
+|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                      Close / Open                       |
+|          Table           |              `--table-hover-effect`               |           0 / 1           |                      Close / Open                       |
 
 ## Installation
 
@@ -172,24 +186,17 @@
 
 4. Restart Typora, and then you can choose to use the **Spring** theme in the ‘Themes’ list.
 
-## Project Progress
+## Todo List
 
 - [x] Light theme SprIng
-
 - [x] Smart Interaction
-
 - [x] Interactive animation configuration
-
 - [ ] HTML export configuration
-
 - [ ] Document layout configuration
-
 - [ ] Dark theme SprIngNight
-
 - [ ] Custom color palette
-
 - [ ] Custom style
-
+- [ ] A variety of interactive effects to choose from
 - [ ] [typora-plugin](https://github.com/obgnail/typora_plugin) unified style adaptation
 
 ## [Credits](credits.md)

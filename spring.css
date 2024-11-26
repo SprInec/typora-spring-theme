@@ -26,22 +26,22 @@
      **************************************************************************************************/
     --text-align: justify;
 
-    /************************* Interactive animation configuration 交互动画配置 ************************
+    /************************* Interactive effects configuration 交互效果配置 ************************
      **************************************************************************************************
-     ** 1.To use interactive animations, first set --use-dynamic-effect` to 1, Then adjust other 
+     ** 1.To use interactive effects, first set --use-dynamic-effect` to 1, Then adjust other 
      **   configuration items as needed.
-     ** 2.To turn off all interactive animations, set `--use-dynamic-effect` to 0
-     **                                           set `--list-ol-text-style` to italic
+     ** 2.To turn off all interactive effects, set `--use-dynamic-effect` to 0
+     **                                        set `--list-ol-text-style` to italic
      *
-     ** 1.若要使用交互动画, 请先将 `--use-dynamic-effect` 设置为 1, 然后根据需要调整其他配置项
-     ** 2.若要关闭全部交互动画, 请将 `--use-dynamic-effect` 设置为 0  
+     ** 1.若要使用交互效果, 请先将 `--use-dynamic-effect` 设置为 1, 然后根据需要调整其他配置项
+     ** 2.若要关闭全部交互效果, 请将 `--use-dynamic-effect` 设置为 0  
      **                            `--list-ol-text-style` 设置为 italic
      *
      * 其余配置项请根据需要自行配置
      * - 0: Close 关闭
      * - 1: Open 开启
      **************************************************************************************************/
-    /* Use/Close interactive animations 使用/关闭交互动画 */
+    /* Use/Close interactive effect 使用/关闭交互效果 */
     --use-dynamic-effect: 1;
 
     /* H1 interactive effect 一级标题交互效果 */
