@@ -33,8 +33,8 @@
     ·
     <a>简体中文</a>
 </p>
-## 目录
 
+## 目录
 - [主题预览](#主题预览)
 - [设计元素](#设计元素)
 - [自定义配置](#自定义配置)
@@ -42,7 +42,6 @@
 - [Todo List](#Todo-List)
 - [致谢](#致谢)
 - [许可](#许可)
-- [Star History](#Star-History)
 
 ## 主题预览
 
@@ -203,8 +202,6 @@
 ## 许可
 
  该项目基于 MIT 开源协议，您可以自由地复制、修改和分发本项目的代码，但请保留原作者的[版权声明](LICENSE)。
-
-## Star History
 
 <p align="center">
     <img src="https://api.star-history.com/svg?repos=SprInec/typora-spring-theme&type=Date"/>
