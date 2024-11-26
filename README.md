@@ -149,26 +149,26 @@ You can customize the interactive effects of any element to be turned on or off 
 >
 > 2. To turn off all interactive effects, simply set `–use-dynamic-effect` to `0`. (`–use-dynamic-effect` cannot disable some interactive effects of ordered lists. If you want to turn off all interactive effects of ordered lists, set `--list-ol-text-style` to `italic`)
 
-|           Type           |                   Variable Name                   |          Values           |                        Function                         |
-| :----------------------: | :-----------------------------------------------: | :-----------------------: | :-----------------------------------------------------: |
-| **Global Configuration** |              `--use-dynamic-effect`               |           0 / 1           | Turn off all interactive effect/ Use interactive effect |
-|            H1            |                `--h1-hover-effect`                |           0 / 1           |                      Close / Open                       |
-|            H2            |                `--h2-after-effect`                |           0 / 1           |                      Close / Open                       |
-|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                      Close / Open                       |
-|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                      Close / Open                       |
-|          Image           |               `--img-hover-effect`                |           0 / 1           |                      Close / Open                       |
-|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                      Close / Open                       |
-|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                      Close / Open                       |
-|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                      Close / Open                       |
-|          Italic          |                `--em-hover-effect`                |           0 / 1           |                      Close / Open                       |
-|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                      Close / Open                       |
-|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                      Close / Open                       |
-|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                      Close / Open                       |
-|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                      Close / Open                       |
-|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                      Close / Open                       |
-|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>nornal / italic |             Close / Open<br>normal / italic             |
-|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                      Close / Open                       |
-|          Table           |              `--table-hover-effect`               |           0 / 1           |                      Close / Open                       |
+|           Type           |                   Variable Name                   |          Values           |                        Function                         |   Default   |
+| :----------------------: | :-----------------------------------------------: | :-----------------------: | :-----------------------------------------------------: | :---------: |
+| **Global Configuration** |              `--use-dynamic-effect`               |           0 / 1           | Turn off all interactive effect/ Use interactive effect |      1      |
+|            H1            |                `--h1-hover-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|            H2            |                `--h2-after-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
+|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                      Close / Open                       |      1      |
+|          Image           |               `--img-hover-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                      Close / Open                       |      1      |
+|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
+|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                      Close / Open                       |      1      |
+|          Italic          |                `--em-hover-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                      Close / Open                       |      1      |
+|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
+|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
+|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
+|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>italic / normal |              Close / Open<br>Close / Open               | 1<br>normal |
+|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                      Close / Open                       |      1      |
+|          Table           |              `--table-hover-effect`               |           0 / 1           |                      Close / Open                       |      1      |
 
 ## Installation
 
