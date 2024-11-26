@@ -39,6 +39,7 @@
 - [Feature](#Feature)
 - [Custom Configuration](#Custom-Configuration)
 - [Installation](#Installation)
+- [Project Progress](#Project-Progress)
 - [Credits](#Credits)
 - [License](#License)
 
