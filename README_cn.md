@@ -4,6 +4,10 @@
     一款令人如沐春风的 Typora 灵动主题
     <br/>
     A refreshing and graceful Typora theme, like a gentle spring breeze.
+    <br>
+    Support custom configuration
+    <br>
+    支持自定义配置
 </p>
 <p align="center">
   <a>
@@ -24,16 +28,22 @@
 </p>
 
 
+
 <p align="center">
     <a href="./README.md">English</a>
     ·
     <a>简体中文</a>
 </p>
-
 ## 目录
 
 - [主题预览](#主题预览)
 - [设计元素](#设计元素)
+    - [配色卡](#1. 充满春天气息的配色卡)
+    - [交互动画](#2. 不同效果的灵动交互)
+    - [统一界面](#3. 风格统一的 Typora 界面)
+
+- [自定义配置](#自定义配置)
+    - [交互动画配置](#交互动画配置)
 - [快速安装与应用](#快速安装与应用)
 - [致谢](#致谢)
 - [许可](#许可)
@@ -44,11 +54,11 @@
 
 ## 设计元素
 
-##### 1. 充满春天气息的配色卡
+### 1. 充满春天气息的配色卡
 
 ![image-20241113191409991](.assets/image-20241113191409991.png)
 
-##### 2. 不同效果的灵动交互
+### 2. 不同效果的灵动交互
 
 - 一级标题 h1
 
@@ -121,10 +131,46 @@
 <p align="center">
     <img src=".assets/alert.gif" width="70%" />
 </p>
-
-##### 3. 风格统一的 Typora 界面
+### 3. 风格统一的 Typora 界面
 
 <img align="center" src=".assets/sys.gif" style="zoom:50%;" />
+
+## 自定义配置
+
+### 交互动画配置
+
+|         类型         |                      变量名                      |            值            |              功能               |
+| :------------------: | :----------------------------------------------: | :----------------------: | :-----------------------------: |
+|     **全局配置**     |              `--use-dynamic-effect`              |          0 / 1           | 关闭全部交互动画 / 使用交互动画 |
+|       一级标题       |               `--h1-hover-effect`                |          0 / 1           |           开启 / 关闭           |
+|       二级标题       |               `--h2-after-effect`                |          0 / 1           |           开启 / 关闭           |
+| 三、四、五、六级标题 |              `--h3-6-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|         段落         |                `--p-hover-effect`                |          0 / 1           |           开启 / 关闭           |
+|         图片         |               `--img-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|        引用块        |           `--blockquote-hover-effect`            |          0 / 1           |           开启 / 关闭           |
+|        提示框        |              `--alert-hover-effect`              |          0 / 1           |           开启 / 关闭           |
+|         粗体         |             `--strong-hover-effect`              |          0 / 1           |           开启 / 关闭           |
+|         斜体         |               `--em-hover-effect`                |          0 / 1           |           开启 / 关闭           |
+|        下划线        |                `--u-hover-effect`                |          0 / 1           |           开启 / 关闭           |
+|         高亮         |              `--mark-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|        删除线        |               `--del-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|      内联代码块      |              `--code-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|        代码块        |              `--fence-hover-effect`              |          0 / 1           |           开启 / 关闭           |
+|         列表         | `--list-marker-effect`<br>`--list-ol-text-style` | 0 / 1<br>nornal / italic |   开启 / 关闭<br>正体 / 斜体    |
+|        分割线        |               ` --hr-hover-effect`               |          0 / 1           |           开启 / 关闭           |
+|         表格         |              `--table-hover-effect`              |          0 / 1           |           开启 / 关闭           |
+
+## 项目进展
+
+- [x] 浅色主题 SprIng
+- [x] 灵动交互
+- [x] 交互动画配置
+- [ ] HTML导出配置
+- [ ] 文档排版配置
+- [ ] 暗色主题 SprIngNight
+- [ ] 自定义配色卡
+- [ ] 自定义样式
+- [ ] [typora-plugin](https://github.com/obgnail/typora_plugin) 统一风格适配 
 
 ## 快速安装与应用
 
