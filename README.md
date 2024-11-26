@@ -39,7 +39,7 @@
 
 - [Preview](#Preview)
 - [Feature](#Feature)
-- [Custom Configuration](#Custom Configuration)
+- [Custom Configuration](#CustomConfiguration)
 - [Installation](#Installation)
 - [Credits](#Credits)
 - [License](#License)
