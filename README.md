@@ -190,7 +190,7 @@
 
 - [ ] Custom style
 
-- [ ] [typora-plugin](https:--github.com-obgnail-typora_plugin) unified style adaptation
+- [ ] [typora-plugin](https://github.com/obgnail/typora_plugin) unified style adaptation
 
 ## [Credits](credits.md)
 
