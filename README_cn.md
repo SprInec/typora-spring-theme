@@ -138,23 +138,23 @@
 |         类型         |                      变量名                      |            值            |              功能               |
 | :------------------: | :----------------------------------------------: | :----------------------: | :-----------------------------: |
 |     **全局配置**     |              `--use-dynamic-effect`              |          0 / 1           | 关闭全部交互动画 / 使用交互动画 |
-|       一级标题       |               `--h1-hover-effect`                |          0 / 1           |           开启 / 关闭           |
-|       二级标题       |               `--h2-after-effect`                |          0 / 1           |           开启 / 关闭           |
-| 三、四、五、六级标题 |              `--h3-6-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|         段落         |                `--p-hover-effect`                |          0 / 1           |           开启 / 关闭           |
-|         图片         |               `--img-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|        引用块        |           `--blockquote-hover-effect`            |          0 / 1           |           开启 / 关闭           |
-|        提示框        |              `--alert-hover-effect`              |          0 / 1           |           开启 / 关闭           |
-|         粗体         |             `--strong-hover-effect`              |          0 / 1           |           开启 / 关闭           |
-|         斜体         |               `--em-hover-effect`                |          0 / 1           |           开启 / 关闭           |
-|        下划线        |                `--u-hover-effect`                |          0 / 1           |           开启 / 关闭           |
-|         高亮         |              `--mark-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|        删除线        |               `--del-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|      内联代码块      |              `--code-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|        代码块        |              `--fence-hover-effect`              |          0 / 1           |           开启 / 关闭           |
-|         列表         | `--list-marker-effect`<br>`--list-ol-text-style` | 0 / 1<br>nornal / italic |   开启 / 关闭<br>正体 / 斜体    |
-|        分割线        |               ` --hr-hover-effect`               |          0 / 1           |           开启 / 关闭           |
-|         表格         |              `--table-hover-effect`              |          0 / 1           |           开启 / 关闭           |
+|       一级标题       |               `--h1-hover-effect`                |          0 / 1           |           关闭 / 开启           |
+|       二级标题       |               `--h2-after-effect`                |          0 / 1           |           关闭 / 开启           |
+| 三、四、五、六级标题 |              `--h3-6-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|         段落         |                `--p-hover-effect`                |          0 / 1           |           关闭 / 开启           |
+|         图片         |               `--img-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|        引用块        |           `--blockquote-hover-effect`            |          0 / 1           |           关闭 / 开启           |
+|        提示框        |              `--alert-hover-effect`              |          0 / 1           |           关闭 / 开启           |
+|         粗体         |             `--strong-hover-effect`              |          0 / 1           |           关闭 / 开启           |
+|         斜体         |               `--em-hover-effect`                |          0 / 1           |           关闭 / 开启           |
+|        下划线        |                `--u-hover-effect`                |          0 / 1           |           关闭 / 开启           |
+|         高亮         |              `--mark-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|        删除线        |               `--del-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|      内联代码块      |              `--code-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|        代码块        |              `--fence-hover-effect`              |          0 / 1           |           关闭 / 开启           |
+|         列表         | `--list-marker-effect`<br>`--list-ol-text-style` | 0 / 1<br>nornal / italic |   关闭 / 开启<br>正体 / 斜体    |
+|        分割线        |               ` --hr-hover-effect`               |          0 / 1           |           关闭 / 开启           |
+|         表格         |              `--table-hover-effect`              |          0 / 1           |           关闭 / 开启           |
 
 ## 项目进展
 
