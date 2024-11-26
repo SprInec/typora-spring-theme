@@ -214,11 +214,10 @@ content #write>h5.md-focus:before {
     border-radius: 10px;
     transform: scaleX(0);
     transition: transform 0.4s ease, background 0.4s ease;
-    opacity: var(calc(var(--h2-after-effect) * var(--use-dynamic-effect)), 0);
 }
 
 #write h2:hover:after {
-    transform: scaleX(1);
+    transform: scaleX(calc(1 * var(--h2-after-effect) * var(--use-dynamic-effect)));
 }
 
 #write h3 {
