@@ -39,7 +39,7 @@
 
 - [Preview](#Preview)
 - [Feature](#Feature)
-- [Custom Configuration](#CustomConfiguration)
+- [Custom Configuration](#Custom-Configuration)
 - [Installation](#Installation)
 - [Credits](#Credits)
 - [License](#License)
@@ -139,23 +139,23 @@
 |           Type           |                   Variable Name                   |          Values           |                           Function                           |
 | :----------------------: | :-----------------------------------------------: | :-----------------------: | :----------------------------------------------------------: |
 | **Global Configuration** |              `--use-dynamic-effect`               |           0 / 1           | Turn off all interactive animations / Use interactive animations |
-|            H1            |                `--h1-hover-effect`                |           0 / 1           |                         Open / Close                         |
-|            H2            |                `--h2-after-effect`                |           0 / 1           |                         Open / Close                         |
-|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                         Open / Close                         |
-|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                         Open / Close                         |
-|          Image           |               `--img-hover-effect`                |           0 / 1           |                         Open / Close                         |
-|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                         Open / Close                         |
-|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                         Open / Close                         |
-|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                         Open / Close                         |
-|          Italic          |                `--em-hover-effect`                |           0 / 1           |                         Open / Close                         |
-|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                         Open / Close                         |
-|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                         Open / Close                         |
-|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                         Open / Close                         |
-|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                         Open / Close                         |
-|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                         Open / Close                         |
-|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>nornal / italic |               Open / Close<br>normal / italic                |
-|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                         Open / Close                         |
-|          Table           |              `--table-hover-effect`               |           0 / 1           |                         Open / Close                         |
+|            H1            |                `--h1-hover-effect`                |           0 / 1           |                         Close / Open                         |
+|            H2            |                `--h2-after-effect`                |           0 / 1           |                         Close / Open                         |
+|       H3 H4 H5 H6        |               `--h3-6-hover-effect`               |           0 / 1           |                         Close / Open                         |
+|        Paragraph         |                `--p-hover-effect`                 |           0 / 1           |                         Close / Open                         |
+|          Image           |               `--img-hover-effect`                |           0 / 1           |                         Close / Open                         |
+|        Blockquote        |            `--blockquote-hover-effect`            |           0 / 1           |                         Close / Open                         |
+|          Alert           |              `--alert-hover-effect`               |           0 / 1           |                         Close / Open                         |
+|          Strong          |              `--strong-hover-effect`              |           0 / 1           |                         Close / Open                         |
+|          Italic          |                `--em-hover-effect`                |           0 / 1           |                         Close / Open                         |
+|        Underline         |                `--u-hover-effect`                 |           0 / 1           |                         Close / Open                         |
+|       Marked text        |               `--mark-hover-effect`               |           0 / 1           |                         Close / Open                         |
+|       Deleted text       |               `--del-hover-effect`                |           0 / 1           |                         Close / Open                         |
+|       Inline code        |               `--code-hover-effect`               |           0 / 1           |                         Close / Open                         |
+|        Code block        |              `--fence-hover-effect`               |           0 / 1           |                         Close / Open                         |
+|           List           | `--list-marker-effect`<br/>`--list-ol-text-style` | 0 / 1<br/>nornal / italic |               Close / Open<br>normal / italic                |
+|         Divider          |               ` --hr-hover-effect`                |           0 / 1           |                         Close / Open                         |
+|          Table           |              `--table-hover-effect`               |           0 / 1           |                         Close / Open                         |
 
 
 
