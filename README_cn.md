@@ -167,6 +167,18 @@
 |        分割线        |               ` --hr-hover-effect`               |          0 / 1           |           关闭 / 开启           |      1      |
 |         表格         |              `--table-hover-effect`              |          0 / 1           |           关闭 / 开启           |      1      |
 
+## 快速安装与应用
+
+1. 在终端使用以下命令将此仓库克隆到本地 **/** 或者您也可以从 [Releases](https://github.com/SprInec/typora-spring-theme/releases) 获取稳定版本的压缩包并解压到本地。
+
+    ```bash
+    git clone https://github.com/SprInec/typora-spring-theme.git
+    ```
+
+2. 在 Typora 的左上角菜单中点击 ‘主题’，在 ‘主题’ 页面中点击打开 ‘主题文件夹’ 按钮。
+3. 将文件 `spring.css` 复制到打开的 Typora 主题文件夹中。
+4. 重启 Typora，然后主题列表中就可以选择使用 **Spring** 主题啦。
+
 ## Todo List
 
 - [x] 浅色主题 SprIng
@@ -179,18 +191,6 @@
 - [ ] 自定义样式
 - [ ] 可供选择的多种交互效果
 - [ ] [typora-plugin](https://github.com/obgnail/typora_plugin) 统一风格适配 
-
-## 快速安装与应用
-
-1. 在终端使用以下命令将此仓库克隆到本地 **/** 或者您也可以从 [Releases](https://github.com/SprInec/typora-spring-theme/releases) 获取稳定版本的压缩包并解压到本地。
-
-    ```bash
-    git clone https://github.com/SprInec/typora-spring-theme.git
-    ```
-
-2. 在 Typora 的左上角菜单中点击 ‘主题’，在 ‘主题’ 页面中点击打开 ‘主题文件夹’ 按钮。
-3. 将文件 `spring.css` 复制到打开的 Typora 主题文件夹中。
-4. 重启 Typora，然后主题列表中就可以选择使用 **Spring** 主题啦。
 
 ## [致谢](credits.md)
 
