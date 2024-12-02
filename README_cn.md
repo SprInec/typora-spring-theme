@@ -5,9 +5,9 @@
     <br/>
     A refreshing and graceful Typora theme, like a gentle spring breeze.
     <br>
-    Support custom configuration
+    Dynamic Interaction / Custom Configuration
     <br>
-    支持自定义配置
+    动态交互 / 自定义配置
 </p>
 <p align="center">
   <a>
@@ -26,6 +26,7 @@
       <img src="https://img.shields.io/badge/language-CSS-purple" />
   </a>
 </p>
+
 
 
 <p align="center">
