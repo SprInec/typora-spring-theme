@@ -113,6 +113,7 @@ content #write {
 content #write p {
     word-spacing: 0.1rem;
     line-height: 1.9rem;
+    margin: 3px;
 }
 
 content #write ol li {
@@ -223,6 +224,8 @@ content #write>h5.md-focus:before {
 #write h5,
 #write h6 {
     position: relative;
+    margin-top: 1.7rem;
+    margin-bottom: 0.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -403,6 +406,14 @@ blockquote td {
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
+.md-alert.md-alert-caution p:hover {
+    background-color: #cf222d0a;
+}
+
+.md-alert.md-alert-caution ::selection {
+    background-color: #cf222d17;
+}
+
 .md-alert.md-alert-caution strong,
 .md-alert.md-alert-caution em,
 .md-alert.md-alert-caution code,
@@ -435,6 +446,14 @@ blockquote td {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid #9A6700;
     box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
+}
+
+.md-alert.md-alert-warning p:hover {
+    background-color: #9a67000a;
+}
+
+.md-alert.md-alert-warning ::selection {
+    background-color: #9a670017;
 }
 
 .md-alert.md-alert-warning strong,
@@ -471,6 +490,14 @@ blockquote td {
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
+.md-alert.md-alert-important p:hover {
+    background-color: #8250df0a;
+}
+
+.md-alert.md-alert-important ::selection {
+    background-color: #8250df17;
+}
+
 .md-alert.md-alert-important strong,
 .md-alert.md-alert-important em,
 .md-alert.md-alert-important code,
@@ -503,6 +530,14 @@ blockquote td {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid #0969DA;
     box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
+}
+
+.md-alert.md-alert-note p:hover {
+    background-color: #0969da0a;
+}  
+
+.md-alert.md-alert-note ::selection {
+    background-color: #0969da17;
 }
 
 .md-alert.md-alert-note strong,
