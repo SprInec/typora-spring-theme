@@ -148,5 +148,4 @@ toc：
 
 [TOC]
 
-[^1]: *Forked* from https://en.wikipedia.org/wiki/Lorem_ipsum
-
+[^1]: Forked from https://en.wikipedia.org/wiki/Lorem_ipsum

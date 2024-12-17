@@ -1,19 +1,5 @@
 :root {
 
-    /*********************** HTML export page configuration HTML导出页面配置 ***************************
-     **************************************************************************************************/
-    /* Font size 字体大小 */
-    --font-size: 16px;
-
-    /* Max width 最大宽度 */
-    --max-width: 1080px;
-
-    /* Margin 外边距 */
-    --margin: 0 auto;
-
-    /* Padding 内边距 */
-    --padding: 0 20px;
-
     /********************************* Text alignment 文本对齐方式 *************************************
      **************************************************************************************************
      * - left:         Align Left         左对齐 
@@ -26,22 +12,22 @@
      **************************************************************************************************/
     --text-align: justify;
 
-    /************************* Interactive effects configuration 交互效果配置 ************************
+    /************************* Interactive animation configuration 交互动画配置 ************************
      **************************************************************************************************
-     ** 1.To use interactive effects, first set --use-dynamic-effect` to 1, Then adjust other 
+     ** 1.To use interactive animations, first set --use-dynamic-effect` to 1, Then adjust other 
      **   configuration items as needed.
-     ** 2.To turn off all interactive effects, set `--use-dynamic-effect` to 0
-     **                                        set `--list-ol-text-style` to italic
+     ** 2.To turn off all interactive animations, set `--use-dynamic-effect` to 0
+     **                                           set `--list-ol-text-style` to italic
      *
-     ** 1.若要使用交互效果, 请先将 `--use-dynamic-effect` 设置为 1, 然后根据需要调整其他配置项
-     ** 2.若要关闭全部交互效果, 请将 `--use-dynamic-effect` 设置为 0  
+     ** 1.若要使用交互动画, 请先将 `--use-dynamic-effect` 设置为 1, 然后根据需要调整其他配置项
+     ** 2.若要关闭全部交互动画, 请将 `--use-dynamic-effect` 设置为 0  
      **                            `--list-ol-text-style` 设置为 italic
      *
      * 其余配置项请根据需要自行配置
      * - 0: Close 关闭
      * - 1: Open 开启
      **************************************************************************************************/
-    /* Use/Close interactive effect 使用/关闭交互效果 */
+    /* Use/Close interactive animations 使用/关闭交互动画 */
     --use-dynamic-effect: 1;
 
     /* H1 interactive effect 一级标题交互效果 */
@@ -97,17 +83,13 @@
     
     /* Table interactive effect 表格交互效果 */
     --table-hover-effect: 1;
-
-    /************************************** Color Scheme 颜色配置 **************************************
-     **************************************************************************************************/
-
 }
 
 html {
-    font-size: var(--font-size);
-    max-width: var(--max-width);
-    margin: var(--margin);
-    padding: var(--padding);
+    font-size: 16px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 html,
@@ -225,11 +207,11 @@ content #write>h5.md-focus:before {
 }
 
 #write h4 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 #write h5 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 #write h6 {
@@ -743,8 +725,8 @@ table tbody+tbody,
 .md-task-list-item>input::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -4px;
+    top: -1.5px;
+    left: -3.5px;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -757,11 +739,11 @@ table tbody+tbody,
 .md-task-list-item>input::after {
     content: "";
     position: absolute;
-    top: 2px;
+    top: 5px;
     left: 1px;
     width: 0.6rem;
     height: 0.3rem;
-    border: 2px solid #fff;
+    border:2px solid #fff;
     border-top: 0;
     border-right: 0;
     -webkit-transform: rotate(-45deg);
@@ -1070,6 +1052,10 @@ a img {
 .md-fences:hover::before {
     background: #fc625d;
     box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+}
+
+.code-tooltip[contenteditable="false"] {
+    border-radius: 7px;
 }
 
 .cm-s-inner .CodeMirror-linenumber {
