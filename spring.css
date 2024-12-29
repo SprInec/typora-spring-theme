@@ -86,10 +86,10 @@
 }
 
 html {
-    font-size: 16px;
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 20px;
+    font-size: 17px;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 0 30px;
 }
 
 html,
@@ -118,10 +118,6 @@ content #write p {
 
 content #write ol li {
     padding-left: 0.5rem;
-}
-
-content #write>h1:first-child {
-    font-weight: normal;
 }
 
 content #write>h5.md-focus:before {
