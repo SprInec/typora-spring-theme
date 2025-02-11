@@ -179,8 +179,9 @@ content #write>h5.md-focus:before {
 #write h2 {
     font-size: 2rem;
     position: relative;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0rem;
     font-weight: bold;
+    margin-bottom: 0rem;
 }
 
 #write h2:after {
@@ -220,7 +221,7 @@ content #write>h5.md-focus:before {
 #write h5,
 #write h6 {
     position: relative;
-    margin-top: 1.5rem;
+    margin-top: 1.0rem;
     margin-bottom: 0.5rem;
     transition: transform 0.3s ease;
 }
@@ -254,9 +255,9 @@ p {
 
 p:not(:has(img)):hover {
     background-color: rgba(123, 181, 147, calc(0.1 * var(--p-hover-effect) * var(--use-dynamic-effect)));
-    padding-left: calc(0.5rem * var(--p-hover-effect) * var(--use-dynamic-effect));
-    padding-right: calc(0.5rem * var(--p-hover-effect) * var(--use-dynamic-effect));
-    border-radius: calc(10px * var(--p-hover-effect) * var(--use-dynamic-effect));
+    /* padding-left: calc(0.5rem * var(--p-hover-effect) * var(--use-dynamic-effect));
+    padding-right: calc(0.5rem * var(--p-hover-effect) * var(--use-dynamic-effect)); */
+    /* border-radius: calc(10px * var(--p-hover-effect) * var(--use-dynamic-effect)); */
 }
 
 p.md-toc-content:hover {
@@ -266,7 +267,7 @@ p.md-toc-content:hover {
 /* ul ol */
 ul,
 ol {
-    padding-left: 1.2rem;
+    padding-left: 0;
 }
 
 ul:first-child,
@@ -421,6 +422,10 @@ blockquote td {
 .md-alert.md-alert-caution .md-table-fig .md-table thead {
     background-color: #d83c46;
     color: #fafbfa;
+}
+
+.md-alert.md-alert-caution td:hover {
+    background-color: #f5ecec;
 }
 
 .md-alert.md-alert-caution ul .md-list-item::marker,
@@ -649,11 +654,35 @@ table td,
     transition: font-size 0.3s ease;
 }
 
-table th:hover,
+
 table td:hover,
-.md-table-fig .md-table th:hover,
 .md-table-fig .md-table td:hover {
-    font-size: calc(100% + 10% * var(--table-hover-effect) * var(--use-dynamic-effect));
+    background: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+    transition: all calc(0.3s * var(--table-hover-effect)) ease;
+}
+
+blockquote td:hover {
+    background: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+}
+
+.md-alert.md-alert-tip td:hover {
+    background: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+}
+
+.md-alert.md-alert-caution td:hover {
+    background: rgba(245, 236, 236, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+}
+
+.md-alert.md-alert-warning td:hover {
+    background: rgba(245, 241, 236, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+}
+
+.md-alert.md-alert-important td:hover {
+    background: rgba(236, 236, 245, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
+}
+
+.md-alert.md-alert-note td:hover {
+    background: rgba(236, 236, 245, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
 }
 
 table th:first-child,
