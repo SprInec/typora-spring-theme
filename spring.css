@@ -250,6 +250,7 @@ img:hover {
 /* paragraph */
 p {
     font-size: 1rem;
+    padding: 0 0.3rem;
     transition: all 0.25s ease;
 }
 
@@ -267,7 +268,7 @@ p.md-toc-content:hover {
 /* ul ol */
 ul,
 ol {
-    padding-left: 0;
+    padding-left: 1.5rem;
 }
 
 ul:first-child,
