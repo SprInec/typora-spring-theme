@@ -651,7 +651,7 @@ table td,
 .md-table-fig .md-table td {
     padding: 10px 16px;
     border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border: 0.5px solid #ddd;
     transition: all 0.3s ease;
 }
 
@@ -659,13 +659,6 @@ table th,
 .md-table-fig .md-table th {
     border-bottom: 1px solid #ddd;
     border-top: 0;
-}
-
-table th:last-child,
-table td:last-child,
-.md-table-fig .md-table th:last-child,
-.md-table-fig .md-table td:last-child {
-    border-right: 0;
 }
 
 table td:hover,
