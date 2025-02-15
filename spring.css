@@ -651,10 +651,22 @@ table td,
 .md-table-fig .md-table td {
     padding: 10px 16px;
     border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    transition: font-size 0.3s ease;
+    border-right: 1px solid #ddd;
+    transition: all 0.3s ease;
 }
 
+table th,
+.md-table-fig .md-table th {
+    border-bottom: 1px solid #ddd;
+    border-top: 0;
+}
+
+table th:last-child,
+table td:last-child,
+.md-table-fig .md-table th:last-child,
+.md-table-fig .md-table td:last-child {
+    border-right: 0;
+}
 
 table td:hover,
 .md-table-fig .md-table td:hover {
@@ -684,13 +696,6 @@ blockquote td:hover {
 
 .md-alert.md-alert-note td:hover {
     background: rgba(236, 236, 245, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
-}
-
-table th:first-child,
-table td:first-child,
-.md-table-fig .md-table th:first-child,
-.md-table-fig .md-table td:first-child {
-    border-left: 0;
 }
 
 table thead,
