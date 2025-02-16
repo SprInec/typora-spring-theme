@@ -697,25 +697,6 @@ table thead,
     color: #06621e;
 }
 
-table caption+thead tr:first-child th,
-table caption+thead tr:first-child td,
-table colgroup+thead tr:first-child th,
-table colgroup+thead tr:first-child td,
-table thead+tbody tr:first-child th,
-table thead+tbody tr:first-child td,
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td,
-.md-table-fig .md-table caption+thead tr:first-child th,
-.md-table-fig .md-table caption+thead tr:first-child td,
-.md-table-fig .md-table colgroup+thead tr:first-child th,
-.md-table-fig .md-table colgroup+thead tr:first-child td,
-.md-table-fig .md-table thead+tbody tr:first-child th,
-.md-table-fig .md-table thead+tbody tr:first-child td,
-.md-table-fig .md-table thead:first-child tr:first-child th,
-.md-table-fig .md-table thead:first-child tr:first-child td {
-    border-top: 0;
-}
-
 table tbody+tbody,
 .md-table-fig .md-table tbody+tbody {
     border-top: 2px solid #E8F4EE;
