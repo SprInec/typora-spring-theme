@@ -307,7 +307,7 @@
 
 content #write {
     background-color: var(--content-write-bg-color);
-    max-width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 7.5rem;
 }
