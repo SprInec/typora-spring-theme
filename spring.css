@@ -319,7 +319,7 @@ content #write p {
 }
 
 content #write ol li {
-    padding-left: 0.5rem;
+    padding-left: 0.3rem;
 }
 
 content #write>h5.md-focus:before {
@@ -465,19 +465,8 @@ p.md-toc-content:hover {
 }
 
 /* ul ol */
-ul,
-ol {
-    padding-left: 1.5rem;
-}
-
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
-}
-
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
+ul, ol {
+    margin: 0;
 }
 
 @keyframes bounce {
