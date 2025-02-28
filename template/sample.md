@@ -105,9 +105,9 @@ alter:
 > Inline styles support **strong**, *Emphasis*, `code`, :smile:, $\LaTeX$, X^2^, H~2~O, [Link](typora.io), image, code block and table:
 >
 > ```bash
->echo "alter code block demo"
+> echo "alter code block demo"
 > ```
-> 
+>
 > |  TITLE  |  title  |
 > | :-----: | :-----: |
 > | content | content |

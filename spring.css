@@ -167,7 +167,7 @@
      --hr-bg-image: linear-gradient(90deg, #5ea67c, #2f845e, #5ea67c);
      --hr-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 
-     --table-border-color: #ddd;
+     --table-border-color: #e0e0e0;
      --table-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
      --blockquote-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
      --alert-tip-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
@@ -303,24 +303,6 @@
      --source-color: #6a6a6a;
      --source-cm-header-color: #428bca;
      --source-cm-atom-color: #777777;
-}
-
-html {
-    font-size: 17px;
-    max-width: 1400px;
-    margin: 20px auto;
-    padding: 0 30px;
-}
-
-html,
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
-
-    text-align: var(--text-align);
-
-    overflow-x: hidden;
-    color: var(--body-text-color);
-    -webkit-font-smoothing: antialiased;
 }
 
 content #write {
@@ -1704,4 +1686,135 @@ a img {
 .typora-node .file-list-item-time,
 .typora-node .file-list-item-summary {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+@media print {
+    body {
+        zoom: 70%;
+        margin: 0rem 1rem;
+        padding: 1rem;
+    }
+
+    table,
+    .md-table-fig .md-table {
+        border: none;
+        border-radius: 10px;
+        border-collapse: separate;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); 
+    }
+
+    table th,
+    table td,
+    .md-table-fig .md-table th,
+    .md-table-fig .md-table td {
+        padding: 10px 16px;
+        border-top: none;
+        border: none;
+    }
+
+    table th,
+    .md-table-fig .md-table th {
+        background-color: var(--table-thead-bg-color);
+        color: var(--table-thead-text-color);
+    }
+
+    blockquote table th,
+    blockquote .md-table-fig .md-table th {
+        background-color: var(--blockquote-thead-bg-color);
+        color: var(--blockquote-thead-text-color);
+    }
+
+    .md-alert.md-alert-tip table th,
+    .md-alert.md-alert-tip .md-table-fig .md-table th {
+        background-color: var(--alert-tip-thead-bg-color);
+        color: var(--alert-tip-thead-text-color);
+    }
+
+    .md-alert.md-alert-caution table th,
+    .md-alert.md-alert-caution .md-table-fig .md-table th {
+        background-color: var(--alert-caution-thead-bg-color);
+        color: var(--alert-caution-thead-text-color);
+    }
+
+    .md-alert.md-alert-warning table th,
+    .md-alert.md-alert-warning .md-table-fig .md-table th {
+        background-color: var(--alert-warning-thead-bg-color);
+        color: var(--alert-warning-thead-text-color);
+    }
+
+    .md-alert.md-alert-important table th,
+    .md-alert.md-alert-important .md-table-fig .md-table th {
+        background-color: var(--alert-important-thead-bg-color);
+        color: var(--alert-important-thead-text-color);
+    }
+
+    .md-alert.md-alert-note table th,
+    .md-alert.md-alert-note .md-table-fig .md-table th {
+        background-color: var(--alert-note-thead-bg-color);
+        color: var(--alert-note-thead-text-color);
+    }
+
+    :where(table, .md-table-fig .md-table) {
+        & tr:nth-child(even) {
+            background-color: var(--table-row-even-bg-color, #eff5f262);
+        }
+        & tr:nth-child(odd) {
+            background-color: var(--table-row-odd-bg-color, #ffffff);
+        }
+    }
+
+    hr {
+        position: relative;
+        margin: 1.2rem auto;
+        border: none;
+        background-color: #2f845e;
+        height: 2.5px;
+        width: 1024px !important;
+        opacity: 0.8;
+        border-radius: 1.75px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #write {
+        max-width: 1024px;
+    }
+
+    hr {
+        position: relative;
+        margin: 2rem auto;
+        border: none;
+        background-color: #2f845e;
+        height: 3px;
+        opacity: 0.8;
+        border-radius: 1.5px;
+    }
+
+    .md-fences:hover {
+        animation: none;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    #write {
+        max-width: 1200px;
+    }
+
+    hr {
+        position: relative;
+        margin: 2rem auto;
+        border: none;
+        background-color: #2f845e;
+        height: 3px;
+        opacity: 0.8;
+        border-radius: 1.5px;
+    }
+
+    .md-fences:hover {
+        animation: none;
+    }
+}
+
+html {
+    font-size: 17px;
 }
