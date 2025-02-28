@@ -94,7 +94,7 @@
 
      --write-h1-before-bg: linear-gradient(90deg, rgba(152, 251, 152, 0), #e8f4ee, rgba(152, 251, 152, 0));
 
-     --write-h2-after-bg: linear-gradient(90deg, rgba(106, 158, 69, 0), #3ea174, rgba(106, 158, 69, 0));
+     --write-h2-after-bg: linear-gradient(90deg, rgba(69, 158, 106, 0), #3ea173a6, rgba(87, 158, 69, 0));
 
      --p-hover-bg-color: rgba(123, 181, 147, calc(0.1 * var(--p-hover-effect) * var(--use-dynamic-effect)));
      
@@ -104,21 +104,21 @@
 
      --ol-hover-marker-color:rgb(0, calc(100 * var(--list-marker-effect) * var(--use-dynamic-effect)), 0);
 
-     --blockquote-border-color: #2f845e;
-     --blockquote-bg-color: #e8f4eb;
-     --blockquote-hover-border-color: #2f845e;
-     --blockquote-thead-bg-color: #3b9457;
+     --blockquote-border-color: #54a12b;
+     --blockquote-bg-color: #eef4e886;
+     --blockquote-hover-border-color: #54a12b;
+     --blockquote-thead-bg-color: #54a12bd4;
      --blockquote-thead-text-color: #3b3b3b4e;
      --blockquote-td-bg-color: #fafafa;
 
      --alert-tip-border-color: #1F883D;
-     --alert-tip-bg-color: #e8f4eb;
+     --alert-tip-bg-color: #e8f4eb90;
      --alert-tip-hover-border-color: #1F883D;
      --alert-tip-thead-bg-color: #3b9457;
      --alert-tip-thead-text-color: #fafbfa;
 
      --alert-caution-border-color: #CF222E;
-     --alert-caution-bg-color: #f5ecec;
+     --alert-caution-bg-color: #f5ecec86;
      --alert-caution-hover-border-color: #CF222E;
      --alert-caution-hover-bg-color: #cf222d0a;
      --alter-caution-selection-bg-color: #cf222d17;
@@ -129,7 +129,7 @@
      --alert-caution-list-item-marker-color: #CF222E;
 
      --alert-warning-border-color: #9A6700;
-     --alert-warning-bg-color: #f4f1e9;
+     --alert-warning-bg-color: #f4f1e97d;
      --alert-warning-hover-border-color: #9A6700;
      --alert-warning-hover-bg-color: #9a67000a;
      --alert-warning-selection-bg-color: #9a670017;
@@ -139,7 +139,7 @@
      --alert-warning-list-item-marker-color: #9A6700;
 
      --alert-important-border-color: #8250DF;
-     --alert-important-bg-color: #eae6f2;
+     --alert-important-bg-color: #eae6f286;
      --alert-important-hover-border-color: #8250DF;
      --alert-important-hover-bg-color: #8250df0a;
      --alert-important-selection-bg-color: #8250df17;
@@ -149,7 +149,7 @@
      --alert-important-list-item-marker-color: #8250DF;
 
      --alert-note-border-color: #0969DA;
-     --alert-note-bg-color: #e5ebf1;
+     --alert-note-bg-color: #e5ebf179;
      --alert-note-hover-border-color: #0969DA;
      --alert-note-hover-bg-color: #0969da0a;
      --alert-note-selection-bg-color: #0969da17;
@@ -167,7 +167,7 @@
      --hr-bg-image: linear-gradient(90deg, #5ea67c, #2f845e, #5ea67c);
      --hr-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 
-     --table-border-color: #e0e0e0;
+     --table-border-color: #02362215;
      --table-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
      --blockquote-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
      --alert-tip-td-hover-bg: rgba(239, 245, 242, calc(0.7 * var(--table-hover-effect))) calc(var(--table-hover-effect) * 100%);
@@ -334,6 +334,20 @@ content #write>h5.md-focus:before {
     background-color: var(--selection-color);
 }
 
+#context-menu {
+    border-radius: 10px;
+    padding: 12px 0 0 0;
+    margin: 0;
+}
+
+#edit-menu,
+#block-style-menu,
+#inster-menu {
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
 /* h1-h3 */
 #write h1,
 #write h2,
@@ -344,12 +358,12 @@ content #write>h5.md-focus:before {
 #write h1,
 #write h2 {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 
 #write h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     position: relative;
     overflow: hidden;
     transition: transform 0.4s ease;
@@ -379,7 +393,7 @@ content #write>h5.md-focus:before {
 }
 
 #write h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     position: relative;
     padding-bottom: 0rem;
     font-weight: bold;
@@ -391,7 +405,7 @@ content #write>h5.md-focus:before {
     display: block;
     width: 30rem;
     height: 2.5px;
-    margin: 0.5rem auto 0;
+    margin: 0.5rem auto 0.3rem;
     background: var(--write-h2-after-bg);
     border-radius: 10px;
     transform: scaleX(0);
@@ -403,19 +417,19 @@ content #write>h5.md-focus:before {
 }
 
 #write h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 #write h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 #write h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #write h6 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #write h3,
@@ -470,7 +484,6 @@ ul, ol {
 }
 
 @keyframes bounce {
-
     0%,
     100% {
         transform: scale(1);
@@ -544,7 +557,7 @@ blockquote p {
 
 blockquote:hover {
     border-left: calc(8px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) solid var(--blockquote-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--blockquote-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--blockquote-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--blockquote-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--blockquote-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -568,7 +581,7 @@ blockquote td {
 
 .md-alert.md-alert-tip:hover {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid var(--alert-tip-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -588,7 +601,7 @@ blockquote td {
 
 .md-alert.md-alert-caution:hover {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid var(--alert-caution-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -634,7 +647,7 @@ blockquote td {
 
 .md-alert.md-alert-warning:hover {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid var(--alert-warning-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -676,7 +689,7 @@ blockquote td {
 
 .md-alert.md-alert-important:hover {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid var(--alert-important-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -718,7 +731,7 @@ blockquote td {
 
 .md-alert.md-alert-note:hover {
     border-left: calc(8px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) solid var(--alert-note-hover-border-color);
-    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(3px + 3px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.15 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
+    box-shadow: calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(0px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) calc(1px + 1px * var(--alert-hover-effect) * var(--use-dynamic-effect)) rgba(0, 0, 0, calc(0.1 * var(--alert-hover-effect) * var(--use-dynamic-effect)));
     border-radius: calc(7px + 8px * var(--alert-hover-effect) * var(--use-dynamic-effect));
 }
 
@@ -1434,7 +1447,7 @@ a img {
 
 ::-webkit-scrollbar-thumb {
     background: var(--scrollbar-thumb-bg);
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 /* find dialog */
