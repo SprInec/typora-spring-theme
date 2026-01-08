@@ -375,14 +375,12 @@ content #write>h5.md-focus:before {
     margin-bottom: 1rem;
 }
 
+/* 由 @ji-ji 提供的 issue#13 修复代码  */
 #write h1 {
-    font-size: 2rem;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.4s ease;
+    position: relative; 
 }
 
-#write h1:before {
+#write h1:after {
     content: "";
     position: absolute;
     top: 0;
@@ -401,7 +399,7 @@ content #write>h5.md-focus:before {
     transform: scale(calc(1 + 0.1 * var(--h1-hover-effect) * var(--use-dynamic-effect)));
 }
 
-#write h1:hover:before {
+#write h1:hover:after {
     transform: scaleX(calc(var(--h1-hover-effect) * var(--use-dynamic-effect)));
 }
 
