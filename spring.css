@@ -91,6 +91,12 @@
     --body-text-color: #282c34;
     --content-write-bg-color: #fefefe;
     --selection-color: #def2e8;
+    --text-color: var(--body-text-color);
+    --select-text-bg-color: var(--selection-color);
+    --select-text-font-color: var(--body-text-color);
+    --search-hit-bg-color: #ffe69a;
+    --search-select-bg-color: #ffb454;
+    --search-hit-text-color: #30230e;
 
     --write-h1-before-bg: linear-gradient(90deg, rgba(152, 251, 152, 0), #e8f4ee, rgba(152, 251, 152, 0));
 
@@ -229,6 +235,19 @@
     --a-color: #0c8f94;
     --a-hover-color: #02502a;
 
+    --footnote-ref-color: #1f6b48;
+    --footnote-ref-hover-color: #0e5235;
+    --footnote-ref-bg-color: rgba(25, 135, 75, 0.10);
+    --footnote-ref-hover-bg-color: rgba(25, 135, 75, 0.16);
+    --footnote-tooltip-bg-color: #eef5ea;
+    --footnote-tooltip-color: #26382e;
+    --footnote-tooltip-strong-color: #06621e;
+    --footnote-tooltip-em-color: #359d09;
+    --footnote-tooltip-link-color: #16734a;
+    --footnote-tooltip-link-hover-color: #075b35;
+    --footnote-tooltip-border-color: rgba(255, 255, 255, 0.72);
+    --footnote-tooltip-shadow-color: rgba(26, 78, 50, 0.28);
+
     --code-fences-color: #2f4f4f;
     --code-fences-bg-color: #ffffff;
     --code-fences-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
@@ -322,7 +341,7 @@ content #write {
     min-width: 800px;
     margin: 0 auto;
     padding-bottom: 7.5rem;
-    overflow: overlay;
+    overflow: auto;
 }
 
 content #write p {
@@ -345,6 +364,29 @@ content #write>h5.md-focus:before {
 
 ::selection {
     background-color: var(--selection-color);
+}
+
+/* search highlight */
+.md-search-hit,
+.cm-searching,
+.ty-file-search-match-text {
+    background: var(--search-hit-bg-color) !important;
+    color: var(--search-hit-text-color) !important;
+}
+
+.md-search-hit *,
+.cm-searching *,
+.ty-file-search-match-text * {
+    color: var(--search-hit-text-color) !important;
+}
+
+.md-search-select {
+    background: var(--search-select-bg-color) !important;
+    color: var(--search-hit-text-color) !important;
+}
+
+.md-search-select * {
+    color: var(--search-hit-text-color) !important;
 }
 
 #context-menu {
@@ -1047,6 +1089,61 @@ table tbody+tbody,
 /* footnote */
 .footnotes {
     font-size: 1rem;
+}
+
+#write sup.md-footnote {
+    color: var(--footnote-ref-color);
+    background-color: var(--footnote-ref-bg-color);
+}
+
+#write sup.md-footnote:hover {
+    color: var(--footnote-ref-hover-color);
+    background-color: var(--footnote-ref-hover-bg-color);
+}
+
+/* Keep hover preview text opaque; paint the background once on the outer surface. */
+.code-tooltip.md-hover-tip {
+    opacity: 1;
+    color: var(--footnote-tooltip-color) !important;
+    background: var(--footnote-tooltip-bg-color) !important;
+    box-shadow: 0 10px 28px var(--footnote-tooltip-shadow-color), inset 0 0 0 1px var(--footnote-tooltip-border-color) !important;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.md-hover-tip .code-tooltip-content {
+    opacity: 1;
+    color: var(--footnote-tooltip-color) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.md-hover-tip .code-tooltip-content a {
+    color: var(--footnote-tooltip-link-color) !important;
+}
+
+.md-hover-tip .code-tooltip-content a:hover {
+    color: var(--footnote-tooltip-link-hover-color) !important;
+}
+
+.md-hover-tip .code-tooltip-content strong {
+    color: var(--footnote-tooltip-strong-color) !important;
+}
+
+.md-hover-tip .code-tooltip-content em {
+    color: var(--footnote-tooltip-em-color) !important;
+}
+
+.md-hover-tip .md-arrow {
+    opacity: 1;
+}
+
+.md-hover-tip .md-arrow::after {
+    background: var(--footnote-tooltip-bg-color) !important;
+    border-bottom-color: var(--footnote-tooltip-bg-color) !important;
+    box-shadow: 0 1px 4px var(--footnote-tooltip-shadow-color) !important;
 }
 
 /* math,html block common */
